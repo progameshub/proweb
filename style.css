@@ -1,0 +1,35 @@
+body{
+    align-items: center;
+    background-image: linear-gradient(to bottom right,aqua,yellow);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    height: inherit;
+    justify-content: center;
+}
+
+#div1{
+    border-style: groove;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 10px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right,rgb(255, 72, 0),yellow,orange);
+    font-size: 1.5em;
+}
+
+#btn1{
+    font-size: 1em;
+    background-color: black;
+    color: white;
+}
+
+#btn1:hover{
+    background-color: rgb(77, 77, 77);
+}
+
+#resetbtn:hover{
+    background-color: rgb(77, 77, 77);
+}
